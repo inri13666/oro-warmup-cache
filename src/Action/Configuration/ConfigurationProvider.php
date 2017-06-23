@@ -35,17 +35,6 @@ class ConfigurationProvider extends BaseConfigurationProvider implements ConfigC
     }
 
     /**
-     * @param bool $ignoreCache
-     * @param Collection $errors
-     * @return array
-     * @throws InvalidConfigurationException
-     */
-    public function getConfiguration($ignoreCache = false, Collection $errors = null)
-    {
-        return parent::getConfiguration($ignoreCache, $errors);
-    }
-
-    /**
      * @param Collection $errors
      * @param ContainerBuilder $containerBuilder
      * @return array
