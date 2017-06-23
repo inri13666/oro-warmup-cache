@@ -1,0 +1,2 @@
+bundles:
+    - { name: Okvpn\Bundle\WarmupCacheBundle\OkvpnWarmupCacheBundle, priority: 10 }

@@ -1,0 +1,29 @@
+{
+  "name": "okvpn/oro-warmup-cache",
+  "type": "symfony-bundle",
+  "description": "Fixes performance on warm up caches for *.yml configurations for oro-platform",
+  "keywords": ["Oro Platform"],
+  "homepage": "https://github.com/vtsykun/oro-warmup-cache",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Tsykun Vladimir",
+      "email": "vtsykun@okvpn.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": { "Okvpn\\Bundle\\WarmupCacheBundle\\": "src" }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
