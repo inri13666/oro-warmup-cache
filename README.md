@@ -11,7 +11,7 @@ that will be needed by the application without updating the cache of any resourc
 ### Installation
 
 ```
-composer requere okvpn/oro-warmup-cache
+composer require okvpn/oro-warmup-cache
 ```
 
 ### Performance improving
