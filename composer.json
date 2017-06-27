@@ -17,8 +17,11 @@
   "require-dev": {
   },
   "autoload": {
-    "psr-4": { "Okvpn\\Bundle\\WarmupCacheBundle\\": "src" }
+    "psr-0": {
+      "Okvpn\\Bundle\\WarmupCacheBundle\\": ""
+    }
   },
+  "target-dir": "Okvpn\\Bundle\\WarmupCacheBundle\\"
   "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
